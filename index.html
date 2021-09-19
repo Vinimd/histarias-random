@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Historias Random</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+
+            <legend>Informações da Historia</legend>
+
+            <label for="name">Nome do Protagonista:</label>
+            <input type="text" name="name" id="name" autofocus required>
+
+            <label for="monster">Tipo de Monstro:</label>
+            <select name="monster" id="monster">
+                <option value="0">-- Seleione um tipo --</option>
+                <option value="zumbis">Zumbi</option>
+                <option value="orcs">Orc</option>
+                <option value="dragões">Dragão</option>
+                <option value="robos">Robos</option>
+            </select>
+
+
+            <label for="type">Especie do Protagonista:</label>
+            <select name="type" id="type">
+                <option value="0">-- Seleione um tipo --</option>
+                <option value="humano">humano</option>
+                <option value="elfo">Elfo</option>
+                <option value="hobbit">hobbit</option>
+                <option value="aranha">aranha</option>
+            </select>
+
+            <label for="weapons">Tipo de Arma:</label>
+            <select name="weapons" id="weapons">
+                <option value="0">-- Seleione um tipo --</option>
+                <option value="rpg">RPG</option>
+                <option value="arco">Arco</option>
+                <option value="espada">Espada</option>
+                <option value="machado">Machado</option>
+            </select>
+
+            <label for="place">Local da Historia:</label>
+            <select name="place" id="place">
+                <option value="0">-- Seleione um tipo --</option>
+                <option value="terra-media">Terra Media</option>
+                <option value="pandora">Pandora</option>
+                <option value="hyrule">hyrule</option>
+                <option value="jundiai">jundiai</option>
+            </select>
+
+            <label for="accident">Acidente:</label>
+            <select name="accident" id="accident">
+                <option value="0">-- Seleione um tipo --</option>
+                <option value="explosão">Explosão Nuclear</option>
+                <option value="portal">Portal Interdimensional</option>
+                <option value="meteoro">Meteoro</option>
+            </select>
+
+            <button data-btn='criar'>Criar</button>
+        </fieldset>
+    </form>
+    <script src="./js/script.js" type="module"></script>
+</body>
+
+</html>

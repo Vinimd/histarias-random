@@ -1,0 +1,31 @@
+div {
+    margin: 15rem auto;
+    width: 50%;
+    position: relative;
+    padding: 1.2rem 1rem;
+    border: 2px solid rgba(0, 0, 0, 0.623);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.507);
+    background-color: white;
+}
+
+body.change {
+    animation: show 800ms infinite;
+}
+
+[data-btn='restaure'] {
+    margin-top: 3rem;
+    position: absolute;
+    width: 25%;
+    right: 0px;
+}
+
+@keyframes show {
+    from {
+        background-image: cross-fade();
+    }
+
+    to {
+        backdrop-filter: blur(0%);
+    }
+}

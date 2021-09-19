@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(45deg, red, yellow);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    margin: 5rem auto;
+    background: rgb(22, 7, 100);
+    width: 20%;
+    padding: 1rem 0.5rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 4px 4px 15px 2px black;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+legend {
+    margin: 0.5rem auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+input {
+    margin: 0.5rem 0.5rem;
+    width: 90%;
+    height: 1.5rem;
+    padding: 0.2rem 0;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+    background-color: black;
+}
+
+select {
+    margin: 0.5rem 0.5rem;
+    width: 90%;
+    height: 2.2rem;
+    padding: 0.2rem 0;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+    background-color: black;
+}
+
+button {
+    width: 90%;
+    height: 1.9rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(45deg, blueviolet, black);
+    cursor: pointer;
+    transition: 500ms;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
